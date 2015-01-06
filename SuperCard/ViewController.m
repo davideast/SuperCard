@@ -20,8 +20,17 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
   
-  self.playingCardView.suit = @"♥︎";
+  self.playingCardView.suit = @"♣︎";
   self.playingCardView.rank = 13;
+  
+  // set up the pinch gesture recognizer
+  [self.playingCardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.playingCardView
+                                                                                       action:@selector(pinch:)]];
+}
+
+- (IBAction)swipeCard:(UISwipeGestureRecognizer *)sender
+{
+  self.playingCardView.faceUp = !self.playingCardView.faceUp;
 }
 
 @end

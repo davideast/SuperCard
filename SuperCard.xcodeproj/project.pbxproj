@@ -418,6 +418,7 @@
 				BBC3CB201A5AD30A0071E294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBC3CB211A5AD30A0071E294 /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				BBC3CB231A5AD30A0071E294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
